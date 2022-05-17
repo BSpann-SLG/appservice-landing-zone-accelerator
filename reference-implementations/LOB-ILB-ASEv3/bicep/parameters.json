@@ -6,13 +6,13 @@
             "value": "ENTERUSERNAME"
         },
         "vmPassword": {
-            "value": ${{ secrets.VM_PW }}
+            "value": "${{ secrets.VM_PW }}"
         },
         "accountName": {
-            "value": ${{ secrets.ACCOUNT_NAME }}
+            "value": "${{ secrets.ACCOUNT_NAME }}"
         },
         "personalAccessToken": {
-            "value": ${{ secrets.PAT }}
+            "value": "${{ secrets.PAT }}"
         },
         "workloadName" :{ 
             "value": "wlname"
