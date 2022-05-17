@@ -3,5 +3,5 @@ RESOURCE_NAME_PREFIX: 'asev3-demo'
 ENVIRONMENT_TAG: 'dev'
 DEPLOYMENT_NAME: 'asev3-demo-deployment'
 VM_USERNAME: 'agent'
-ACCOUNT_NAME: 'replace me in repo secrets'
+ACCOUNT_NAME: ${{ secret.ACCOUNT_NAME }}
 CICD_AGENT_TYPE: 'github'
