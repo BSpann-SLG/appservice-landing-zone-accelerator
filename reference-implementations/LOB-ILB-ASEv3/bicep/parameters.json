@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "vmUsername": {
-            "value": "ENTERUSERNAME"
+            "value": "admin"
         },
         "vmPassword": {
             "value": "${{ secrets.VM_PW }}"
@@ -15,13 +15,13 @@
             "value": "${{ secrets.PAT }}"
         },
         "workloadName" :{ 
-            "value": "wlname"
+            "value": "asev3"
         },
         "environment" :{ 
             "value": "dev"
         },
         "CICDAgentType": {
-            "value": "azuredevops OR github OR none"
+            "value": "github"
         }
 
     }
